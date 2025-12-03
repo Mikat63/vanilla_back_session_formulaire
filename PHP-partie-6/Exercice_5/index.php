@@ -1,5 +1,9 @@
 <?php
-    
+if (isset($_GET['week']) && !empty(trim($_GET['week']))) {
+    $week = "Week : " . htmlspecialchars($_GET['week']);
+} else {
+    $week = "Error : week not found";
+}
 ?>
 
 <!DOCTYPE html>
@@ -13,7 +17,11 @@
 </head>
 
 <body>
-
+    <div>
+        <p class="<?php echo ($week === "Error : week not found") ? 'red' : 'green' ?>">
+            <?php echo $week; ?>
+        </p>
+    </div>
 </body>
 
 </html>
