@@ -28,4 +28,6 @@ if (strlen($_GET['nom']) > 30 || strlen($_GET['prenom']) > 30) {
 $nom = htmlspecialchars(strip_tags($_GET['nom']));
 $prenom = htmlspecialchars(strip_tags($_GET['prenom']));
 
-echo "Nom : $nom<br>Prénom : $prenom<br>";
+echo "<h2>Résultat du formulaire</h2>";
+echo "<p><strong>Nom : </strong>$nom</p>";
+echo "<p><strong>Prénom : </strong>$prenom</p>";
