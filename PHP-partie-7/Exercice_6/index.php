@@ -13,7 +13,7 @@ if (!empty($_POST['civilite']) && !empty($_POST['nom']) && !empty($_POST['prenom
 } else {
 ?>
     <!DOCTYPE html>
-    <html lang="en">
+    <html lang="fr">
 
     <head>
         <meta charset="UTF-8">

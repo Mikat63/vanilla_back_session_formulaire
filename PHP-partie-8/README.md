@@ -1,5 +1,6 @@
 # PHP - Variables superglobales, sessions et cookies
 Dans tous les exercices, il faudra faire une page HTML 5 valide et soigner son CSS.
+
 ## Exercice 1
 Faire une page HTML permettant de donner à l'utilisateur :
 - son User Agent

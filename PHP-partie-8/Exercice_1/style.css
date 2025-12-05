@@ -1,0 +1,46 @@
+:root {
+  --text-color: white;
+}
+
+body {
+  background: linear-gradient(to right, #321972, #272788);
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: 1px solid var(--text-color);
+}
+
+h1,
+h2,
+p {
+  color: var(--text-color);
+  font-style: normal;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+p {
+  font-size: 20px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.main_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+}
+
+.user_info {
+  padding: 10px;
+  width: 50%;
+  box-shadow: 0 0 20px white;
+}
