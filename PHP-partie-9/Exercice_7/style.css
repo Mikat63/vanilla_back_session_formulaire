@@ -1,0 +1,32 @@
+:root {
+  --text-color: white;
+}
+
+/* section elements */
+body {
+  background: linear-gradient(to right, #321972, #272788);
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: 1px solid var(--text-color);
+}
+
+/* titles elements */
+h1,
+h2 {
+  color: var(--text-color);
+  font-style: normal;
+}
+
+/* class elements */
+.date_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+  font-size: 28px;
+  color: var(--text-color);
+}
