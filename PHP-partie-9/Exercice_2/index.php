@@ -1,8 +1,3 @@
-<?php
-$userAgent = strip_tags(htmlspecialchars($_SERVER['HTTP_USER_AGENT']));
-$userIp = strip_tags(htmlspecialchars($_SERVER['REMOTE_ADDR']));
-$userServerName = strip_tags(htmlspecialchars($_SERVER['SERVER_NAME']));
-?>
 
 <!DOCTYPE html>
 <html lang="fr">
