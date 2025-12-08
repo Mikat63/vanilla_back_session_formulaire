@@ -6,7 +6,10 @@ if (isset($_COOKIE['login']) && isset($_COOKIE['password'])) {
     $noCookie = "Aucun cookie trouvé";
 }
 
-
+// PHP_partie_8 exercice 5 redirect after modify cookies
+if (isset($_GET['success'])) {
+    $successModifyCookie = "Les Informations sont mofidiers avec succès";
+}
 ?>
 
 <!DOCTYPE html>
@@ -33,6 +36,13 @@ if (isset($_COOKIE['login']) && isset($_COOKIE['password'])) {
             } else {
                 echo "<p>$noCookie</p>";
             } ?>
+
+            <!-- show success modify cookies in the exercice 5 from php partie_8 -->
+            <?php
+            if (isset($_GET['success'])) {
+                echo "<p class='green_color'>$successModifyCookie</p>";
+            }
+            ?>
         </div>
     </main>
 

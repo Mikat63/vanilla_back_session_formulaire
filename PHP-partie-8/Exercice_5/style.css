@@ -10,7 +10,6 @@
   --text-size: 20px;
 }
 
-/* section styles */
 body {
   min-height: 100vh;
   display: flex;
@@ -44,23 +43,35 @@ h2 {
   color: var(--text-color-black);
 }
 
+label {
+  color: var(--text-color-black);
+}
+
 /* elements classes */
-.cookie_info_container {
+.form_container {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.form_section {
   justify-content: center;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-/* other elements */
-label {
-  color: var(--text-color-black);
+.button_validate {
+  background: #b2a3b5;
+  border: 1px solid gray;
+  border-radius: 3px;
 }
 
-span {
-  font-weight: bold;
+/* message class */
+.red {
+  color: red;
 }
 
-.green_color {
+.green {
   color: green;
 }
