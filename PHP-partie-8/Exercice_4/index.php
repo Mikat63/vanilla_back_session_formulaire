@@ -8,7 +8,7 @@ if (isset($_COOKIE['login']) && isset($_COOKIE['password'])) {
 
 // PHP_partie_8 exercice 5 redirect after modify cookies
 if (isset($_GET['success'])) {
-    $successModifyCookie = "Les Informations sont mofidiers avec succès";
+    $successModifyCookie = "Les Informations sont mofidiées avec succès";
 }
 ?>
 
